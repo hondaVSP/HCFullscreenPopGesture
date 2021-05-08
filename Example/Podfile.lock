@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HCFullscreenPopGesture (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HCFullscreenPopGesture (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HCFullscreenPopGesture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HCFullscreenPopGesture: 1bca9ee2542119ab2f194982248c3cdc6a64c5ed
+
+PODFILE CHECKSUM: c12bb9bf6353aba3eb6ce87c0f949425836fdde7
+
+COCOAPODS: 1.10.1
