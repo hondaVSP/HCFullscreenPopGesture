@@ -112,7 +112,10 @@ typedef void (^_FDViewControllerWillAppearInjectBlock)(UIViewController *viewCon
 - (void)fd_pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     
-    if (![viewController isKindOfClass:NSClassFromString(@"HCViewController")]) {
+    if ([viewController isKindOfClass:NSClassFromString(@"HCViewController")] || [viewController isKindOfClass:NSClassFromString(@"BaseViewController")]) {
+    }
+    else
+    {
         [self fd_pushViewController:viewController animated:animated];
         return;
     }
